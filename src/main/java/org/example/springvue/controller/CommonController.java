@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @Slf4j
 @Controller
-@ControllerAdvice
+@ControllerAdvice  // ControllerAdvice사용법에 대해 알아봅시다
 public class CommonController implements ErrorController {
 
 //    @GetMapping(value = "/helloVue")
