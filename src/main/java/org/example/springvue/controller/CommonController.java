@@ -21,7 +21,7 @@ public class CommonController implements ErrorController {
 //        log.info("Hello!");
 //        return "index.html";
 //    }
-
+    //TEST
     @GetMapping("/error")
     public String commonError(HttpServletRequest request) {
         log.info("HelloError!");
